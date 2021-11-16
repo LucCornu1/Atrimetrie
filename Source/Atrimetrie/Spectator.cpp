@@ -37,10 +37,24 @@ void ASpectator::SpawnPlane()
 void ASpectator::ServerSpawnPlane_Implementation()
 {
 	FActorSpawnParameters SpawnParams;
+	ACharacter* Character = GetWorld()->SpawnActor<ACharacter>(GermanPlane, FVector(0, 0, 0), FRotator(0, 0, 0), SpawnParams);
+
+//	Possess(Cast<APawn>(Character));
+
+}
+
+void ASpectator::Possess(APawn* Target)
+{
+	ClientPossess(Target);
+
+}
+
+void ASpectator::ClientPossess_Implementation(APawn* Target)
+{
 	AController* CurrentController = GetController();
 	CurrentController->UnPossess();
-	ACharacter* Character = GetWorld()->SpawnActor<ACharacter>(GermanPlane, FVector(0, 0, 0), FRotator(0, 0, 0), SpawnParams);
-	CurrentController->Possess(Cast<APawn>(Character));
+	CurrentController->Possess(Target);
+	Target->SetOwner(CurrentController);
 
 }
 
@@ -70,4 +84,5 @@ void ASpectator::MoveRight(float AxisValue)
 void ASpectator::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const
 {
 	DOREPLIFETIME(ASpectator, TargetPawn);
+
 }

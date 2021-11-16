@@ -54,6 +54,11 @@ public:
 	UFUNCTION(BlueprintCallable, NetMulticast, Reliable, Category = "InGame")
 		void ServerSpawnPlane();
 
+	void Possess(APawn* Target);
+
+	UFUNCTION(BlueprintCallable, Client, Reliable, Category = "InGame")
+		void ClientPossess(APawn* Target);
+
 	virtual void SetupPlayerInputComponent(class UInputComponent* InputComp) override;
 
 };
