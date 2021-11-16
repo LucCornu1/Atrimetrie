@@ -1411,3 +1411,29 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.11.16-16.09.53:844][532]AssetCheck: New page: Asset Save: multiple assets
 [2021.11.16-16.09.53:844][532]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/MONDE_BuiltData.MONDE_BuiltData
 [2021.11.16-16.09.53:879][532]LogContentValidation: Display: Validating World /Game/Maps/MONDE.MONDE
+[2021.11.16-16.15.36:089][982]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (crater-big3)
+[2021.11.16-16.15.41:307][271]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (building-hotel)
+[2021.11.16-16.15.54:212][ 38]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (crater-big9)
+[2021.11.16-16.16.08:961][869]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (crater-big8)
+[2021.11.16-16.16.13:770][135]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (crater-big7)
+[2021.11.16-16.16.18:812][419]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor12)
+[2021.11.16-16.16.19:318][447]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor12)
+[2021.11.16-16.16.19:682][468]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (crater-big7)
+[2021.11.16-16.16.31:725][147]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (crater-big6)
+[2021.11.16-16.16.35:795][375]Cmd: EDIT COPY
+[2021.11.16-16.16.36:144][382]Cmd: EDIT PASTE
+[2021.11.16-16.16.36:615][382]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor18)
+[2021.11.16-16.16.38:444][482]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (crater-big11)
+[2021.11.16-16.16.39:645][551]Cmd: EDIT COPY
+[2021.11.16-16.16.39:944][568]Cmd: EDIT PASTE
+[2021.11.16-16.16.58:627][625]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (crater-big2)
+[2021.11.16-16.16.59:620][678]Cmd: EDIT COPY
+[2021.11.16-16.16.59:880][693]Cmd: EDIT PASTE
+[2021.11.16-16.17.44:198][185]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MONDE" FILE="../../../../../../Bureau/repos/Atrimetrie/Content/Maps/MONDE.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.11.16-16.17.44:322][185]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2021.11.16-16.17.44:494][185]LogSavePackage: Moving '../../../../../../Bureau/repos/Atrimetrie/Saved/MONDEAE6124484C01AD71424402B9B012F426.tmp' to '../../../../../../Bureau/repos/Atrimetrie/Content/Maps/MONDE.umap'
+[2021.11.16-16.17.44:521][185]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MONDE_BuiltData" FILE="../../../../../../Bureau/repos/Atrimetrie/Content/Maps/MONDE_BuiltData.uasset" SILENT=true
+[2021.11.16-16.17.44:538][185]LogSavePackage: Moving '../../../../../../Bureau/repos/Atrimetrie/Saved/MONDE_BuiltData95FC0C15487436BE1A4D8A8A3BF7B9E4.tmp' to '../../../../../../Bureau/repos/Atrimetrie/Content/Maps/MONDE_BuiltData.uasset'
+[2021.11.16-16.17.44:567][185]AssetCheck: New page: Asset Save: multiple assets
+[2021.11.16-16.17.44:567][185]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/MONDE_BuiltData.MONDE_BuiltData
+[2021.11.16-16.17.44:567][185]LogContentValidation: Display: Validating World /Game/Maps/MONDE.MONDE
