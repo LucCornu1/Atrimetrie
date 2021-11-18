@@ -6,6 +6,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/PlayerController.h"
 #include "GameFramework/Character.h"
+#include "MultiplayerGameMode.h"
 #include "PlayerPlane.generated.h"
 
 UCLASS()
@@ -35,6 +36,7 @@ private:
 	UWorld* World;
 	USkeletalMeshComponent* MeshComponent;
 	APlayerController* CurrentController;
+	AMultiplayerGameMode* GameMode;
 
 protected:
 	UPROPERTY(BlueprintReadWrite, Replicated, Category = "PlaneMovement")

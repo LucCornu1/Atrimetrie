@@ -2,6 +2,7 @@
 
 
 #include "GameFramework/CharacterMovementComponent.h"
+#include "NetworkPlayerStart.h"
 #include "PlayerPlane.h"
 
 // Sets default values
@@ -27,6 +28,9 @@ void APlayerPlane::BeginPlay()
 	World = GetWorld();
 	MeshComponent = GetMesh();
 	CurrentController = Cast<APlayerController>(GetController());
+	/*GameMode = Cast<AMultiplayerGameMode>(GetWorld()->GetAuthGameMode());
+
+	GameMode->SetTargetSpawner(ESpawnerType::SPAWNER_RESISTANT);*/
 	
 }
 
